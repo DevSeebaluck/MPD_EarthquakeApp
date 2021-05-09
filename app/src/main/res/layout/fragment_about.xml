@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!-- MyName: Dev Seebaluck, MatricNo: S1903333-->
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#009688">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:orientation="vertical"
+        android:gravity="center_vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/cw_name"
+            android:padding="15dp"
+            android:layout_marginBottom="45dp"
+            android:text="@string/assignment_mpd"
+            android:textStyle="bold"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:textSize="30sp"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/module"
+            android:padding="15dp"
+            android:text="@string/module_mhi324189"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:textSize="25sp"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/name"
+            android:padding="15dp"
+            android:text="@string/name_dev_seebaluck"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:textSize="25sp"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/stud_id"
+            android:padding="13dp"
+            android:text="@string/student_id_s1903333"
+            android:textStyle="italic"
+            android:textColor="#FFFFFF"
+            android:layout_gravity="bottom"
+            android:gravity="center"
+            android:textSize="21sp"
+            />
+
+    </LinearLayout>
+</RelativeLayout>

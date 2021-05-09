@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!-- MyName: Dev Seebaluck, MatricNo: S1903333-->
+
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single"></group>
+
+    <item
+        android:id="@+id/index"
+        android:title="Index"
+        android:icon="@drawable/ic_index"/>
+
+    <item
+        android:id="@+id/map"
+        android:title="Map"
+        android:icon="@drawable/ic_map"/>
+
+    <item
+        android:id="@+id/search"
+        android:title="Search"
+        android:icon="@drawable/ic_search"/>
+
+    <item
+        android:id="@+id/about"
+        android:title="About Us"
+        android:icon="@drawable/ic_about"/>
+
+</menu>

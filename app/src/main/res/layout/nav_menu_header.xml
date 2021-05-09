@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!-- MyName: Dev Seebaluck, MatricNo: S1903333-->
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="180dp"
+    android:background="#2E81FD">
+
+    <ImageView
+        android:id="@+id/logo"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="40dp"
+        android:layout_marginBottom="40dp"
+        android:src="@drawable/licon" />
+
+    <TextView
+        android:id="@+id/appTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="80dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="50dp"
+        android:layout_toRightOf="@+id/logo"
+        android:text="Earthquake App"
+        android:textColor="#FFFFFF"
+        android:textSize="25dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/appDetail"
+        android:layout_width="254dp"
+        android:layout_height="45dp"
+        android:layout_below="@id/appTitle"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="-33dp"
+        android:layout_toRightOf="@+id/logo"
+        android:text="BGS materials ©NERC 2019"
+        android:textColor="#FFFFFF"
+        android:textSize="17dp"
+        android:textStyle="italic" />
+
+</RelativeLayout>
+
